@@ -7,6 +7,7 @@ Neste desafio, repliquei o feed de notícias do Twitter. Para tanto, há um flux
 O design foi adaptado da maneira que preferi.
 
 Abaixo um protótipo como espelho:
+
 ![Exemplo Twitter](https://media.giphy.com/media/3ov9jP4RIGQCUQOScg/giphy.gif)
 
 ## Versão 0.0.1
@@ -40,3 +41,5 @@ Abaixo um protótipo como espelho:
 * Na pasta `css` há o arquivo-base `style.css` com os estilos necessários para estilizar a página html.
 * Na pasta `js` há o arquivo-base `twitter.js` com as funções e eventos solicitados nas versões.
 
+## GitHub Pages
+https://amanda-gomes.github.io/Twitter/
