@@ -41,19 +41,20 @@ img {
   word-wrap: break-word; 
 }
 
-#twittar  {
+#btnTwittar  {
   font-size: 14px;
   color: #fff;
-  padding: 10px 15px;
+  padding: 7.5px 15px;
   background: #65A2D9;
   border-radius: 30px;
-  border: 3px solid #fff;
+  border: 3px solid #ffff;
+  box-shadow: 3px 3px #CDD1D0;
 }
 
-#twittar:disabled  {
+#btnTwittar:disabled  {
   font-size: 14px;
   color: #fff;
-  padding: 10px 15px;
+  padding: 7.5px 15px;
   background: #c2eeff;
   border-radius: 30px;
   border: 3px solid #fff;

@@ -1,4 +1,4 @@
-document.getElementById("twittar").addEventListener("click", twittar);
+document.getElementById("btnTwittar").addEventListener("click", twittar);
 document.getElementById("tweet").addEventListener("input", contarCaracteres);
 document.getElementById("tweet").addEventListener("keyup", tamTextarea);
 
@@ -7,7 +7,7 @@ function twittar() {
   let tweets = document.getElementsByTagName("ul")[0];
   let newTweet = document.createElement("li");
   let contador = document.getElementsByTagName("strong")[0];
-  let btnTwittar = document.getElementById("twittar");
+  let btnTwittar = document.getElementById("btnTwittar");
   let horas = new Date().getHours() + ":" + new Date().getMinutes();
   newTweet.innerHTML = horas + " - <b>Você</b>:<br>" + tweet.value;
   tweets.appendChild(newTweet);
@@ -23,7 +23,7 @@ function contarCaracteres() {
   let contagem = 140 - tweet.value.length;
   let contador = document.getElementsByTagName("strong")[0];
   contador.textContent = contagem;
-  let btnTwittar = document.getElementById("twittar");
+  let btnTwittar = document.getElementById("btnTwittar");
 
   if (contagem === 140 || contagem < 0) {
     btnTwittar.setAttribute("disabled", "");
