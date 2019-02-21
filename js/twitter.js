@@ -8,7 +8,7 @@ function twittar() {
   let newTweet = document.createElement("li");
   let contador = document.getElementsByTagName("strong")[0];
   let btnTwittar = document.getElementById("btnTwittar");
-  let horas = new Date().getHours() + ":" + new Date().getMinutes();
+  let horas = gerarHorario();
   newTweet.innerHTML = horas + " - <b>Você</b>:<br>" + tweet.value;
   tweets.appendChild(newTweet);
   tweet.value = "";
@@ -46,4 +46,15 @@ function tamTextarea() {
   if (tweet.scrollHeight > tweet.offsetHeight) {
     tweet.rows += 1;
   }
+}
+
+function gerarHorario() {
+  let horario = new Date().getHours()
+  let minutos = new Date().getMinutes();
+
+  if (minutos < 10) {
+    minutos = "0" + minutos;
+  }
+
+  return horario + ":" + minutos;
 }
