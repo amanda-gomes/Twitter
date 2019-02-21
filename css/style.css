@@ -38,7 +38,8 @@ img {
   width: 50%;
   box-shadow: 5px 5px #CDD1D0;
   border-radius: 3px;
-  word-wrap: break-word; 
+  word-wrap: break-word;
+  white-space: pre-line;
 }
 
 #btnTwittar  {
@@ -65,9 +66,10 @@ ul {
 }
 
 textarea{
-  border: 2px solid #c2eeff; 
+  border: 2px solid #84c2df; 
   overflow: hidden;
-  max-width: 65%;
+  max-width: 80%;
+  font-size: 18px;
 }
     
 .claro {
