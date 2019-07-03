@@ -41,5 +41,6 @@ Abaixo um protótipo como espelho:
 * Na pasta `css` há o arquivo-base `style.css` com os estilos necessários para estilizar a página html.
 * Na pasta `js` há o arquivo-base `twitter.js` com as funções e eventos solicitados nas versões.
 
-## GitHub Pages
+## Produto final
+![Página Inicial](img/tela.png)
 https://amanda-gomes.github.io/Twitter/
