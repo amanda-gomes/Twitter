@@ -42,5 +42,5 @@ Abaixo um protótipo como espelho:
 * Na pasta `js` há o arquivo-base `twitter.js` com as funções e eventos solicitados nas versões.
 
 ## Produto final
-![Página Inicial](img/tela.png)
+![Página Inicial](img/tela_inicial.png)
 https://amanda-gomes.github.io/Twitter/
